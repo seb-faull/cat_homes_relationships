@@ -31,6 +31,10 @@ CatHome.create!(cat_id: c5.id, home_id: h2.id)
 CatHome.create!(cat_id: c5.id, home_id: h3.id)
 CatHome.create!(cat_id: c5.id, home_id: h6.id)
 
+Person.create!(name: "Niall", age: 25, home_id: h1.id)
+Person.create!(name: "Ollie", age: 50, home_id: h1.id)
+Person.create!(name: "Seb", age: 65, home_id: h2.id)
+
 
 puts "Finished Seed....."
 
